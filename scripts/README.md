@@ -29,13 +29,14 @@ Open `scripts/.env` and fill in `SMTP_PASSWORD` with a Gmail App Password (see b
 
 > Your real Gmail password will NOT work here. You must use an App Password.
 
-**Step 3 — Install python-dotenv (optional but recommended)**
+**Step 3 — Install dependencies**
 
 ```bash
-pip install python-dotenv
+pip install python-dotenv markdown
 ```
 
-Without this, the script falls back to reading system environment variables. With it, the script reads from `scripts/.env` automatically.
+- `python-dotenv` — reads credentials from `scripts/.env` automatically (falls back to system env vars without it)
+- `markdown` — converts the Markdown report to styled HTML for email rendering
 
 ### Running manually
 

@@ -1,7 +1,7 @@
 # Plan: Email Formatting Upgrade — HTML + Visual Polish
 
 **Created:** 2026-04-12
-**Status:** Draft
+**Status:** Implemented
 **Request:** Upgrade the daily market report email from plain text to a visually formatted HTML email, with tables rendering properly, bold text working, and a clean newsletter-style layout.
 
 ---
@@ -516,3 +516,24 @@ Commit the updated script and README so the daily scheduled trigger picks up the
 - **Gmail CSS support:** Gmail strips `<style>` blocks and `<head>` CSS. All styles in the template use `style="..."` inline attributes on the elements that need them, which Gmail does render correctly.
 - **Outlook compatibility:** Outlook (desktop) has poor CSS support. Tables will render but some visual polish may be lost. The report is primarily read in Gmail, so Gmail is the rendering target.
 - **Future enhancement:** Add a summary section at the top of the email (5-bullet TL;DR above the fold) so the most important points are visible without scrolling. This would be a small addition to the `/market-report` command prompt, not the email script.
+
+---
+
+## Implementation Notes
+
+**Implemented:** 2026-04-12
+
+### Summary
+
+- Installed `markdown` 3.10.2 via pip
+- Rewrote `scripts/send_market_report.py`: Markdown→HTML conversion with `tables` + `nl2br` extensions, inline CSS email template, dark header bar, hero metrics bar (BTC price / Fear & Greed / BTC Dominance), color-coded % changes, `multipart/alternative` with plain-text fallback
+- Updated `scripts/README.md` to document both `python-dotenv` and `markdown` as dependencies
+- Dry-run verified: script prints `Format: HTML (with plain-text fallback)` and completes successfully
+
+### Deviations from Plan
+
+None — implemented exactly as specified.
+
+### Issues Encountered
+
+None.
