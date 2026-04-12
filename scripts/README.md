@@ -51,14 +51,15 @@ The script will:
 
 ### Automated daily delivery
 
-The daily report is generated and emailed automatically each morning at **7:00 AM Eastern** via a Claude Code scheduled remote agent. The agent:
+The daily report is generated and emailed automatically each morning at **7:00 AM Eastern** via Windows Task Scheduler. The task (`DailyMarketReport`) runs `scripts/run_market_report.bat`, which:
 
-1. Runs `/market-report` to generate the report with live web data
-2. Saves it to `outputs/market-reports/`
-3. Uploads it to Google Drive (folder: "Market Reports")
-4. Calls this script to send the email
+1. Runs Claude Code locally (non-interactive) with the `/market-report` instructions
+2. Claude searches the web, generates the report, and saves it to `outputs/market-reports/`
+3. Calls this script to send the email
 
-To check or manage the schedule, run `/schedule` in Claude Code.
+**Requirements:** Computer must be on and logged in at 7:00 AM. VS Code does not need to be open.
+
+To manage the schedule, open Windows Task Scheduler and find `DailyMarketReport`.
 
 ### Troubleshooting
 

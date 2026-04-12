@@ -42,6 +42,9 @@ Claude should always orient itself through `/prime` at session start, then act w
 ├── reference/             # Templates, examples, reusable patterns
 └── scripts/               # Automation scripts
     ├── send_market_report.py  # Emails latest report via SMTP
+    ├── run_market_report.bat  # Runs Claude locally to generate + email report (used by Task Scheduler)
+    ├── send_log.txt           # Log output from automated runs (gitignored)
+    ├── .env                   # Gmail credentials (gitignored)
     ├── .env.example           # Credential template (copy to .env, never commit)
     └── README.md              # Setup instructions for email delivery
 ```
@@ -105,16 +108,24 @@ Uses live web search to fetch all data — no estimates or guesses. Target read 
 
 After generating:
 1. Saves report to `outputs/market-reports/YYYY-MM-DD-market-report.md`
-2. Uploads to Google Drive (folder: "Market Reports")
-3. Emails report to samuelwalker2000@gmail.com via `scripts/send_market_report.py`
+2. Emails report to samuelwalker2000@gmail.com via `scripts/send_market_report.py`
 
-Run manually any time, or triggered automatically each morning at 7:00 AM EST by the Claude Code scheduler.
+Run manually any time, or triggered automatically each morning at **7:00 AM EST** by Windows Task Scheduler (task name: `DailyMarketReport`), which runs `scripts/run_market_report.bat`.
 
 **Prerequisite:** `scripts/.env` must be configured with Gmail App Password credentials. See `scripts/README.md`.
 
 ---
 
 ## Scripts
+
+### scripts/run_market_report.bat
+
+The main automation script. Runs Claude Code locally (non-interactive) to generate today's market report and email it. Executed by Windows Task Scheduler at 7:00 AM daily. Logs output to `scripts/send_log.txt`.
+
+**Run manually:**
+```bash
+scripts/run_market_report.bat
+```
 
 ### scripts/send_market_report.py
 
@@ -128,6 +139,10 @@ python scripts/send_market_report.py
 ```
 
 See `scripts/README.md` for full setup instructions.
+
+### Automation: Windows Task Scheduler
+
+The `DailyMarketReport` task runs `scripts/run_market_report.bat` at 7:00 AM daily. Computer must be on and logged in — VS Code does not need to be open. To manage: open Task Scheduler and find `DailyMarketReport`.
 
 ---
 
