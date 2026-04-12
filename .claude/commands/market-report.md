@@ -230,6 +230,15 @@ DAILY BRIEF — [Today's Date]
 ## After Writing the Report
 
 1. Save the complete report to `outputs/market-reports/[YYYY-MM-DD]-market-report.md`
-2. Upload to Google Drive folder "Market Reports" using the Google Drive MCP
-3. Run `python scripts/send_market_report.py` to email it to samuelwalker2000@gmail.com
-4. Confirm: "Report complete. Saved to outputs/, uploaded to Drive, email sent."
+2. Commit and push the report to GitHub so the local machine can pull and email it:
+```bash
+git config user.email "samuelwalker2000@gmail.com"
+git config user.name "Market Report Agent"
+git add outputs/market-reports/
+git commit -m "Add market report $(date +%Y-%m-%d)"
+git push origin main
+```
+Print: "Report pushed to GitHub."
+3. Upload to Google Drive folder "Market Reports" using the Google Drive MCP if available.
+4. Attempt to run `pip install python-dotenv markdown --quiet 2>/dev/null || true` then `python scripts/send_market_report.py` — print result but do not fail if SMTP is unavailable.
+5. Confirm: "Report complete. Saved, pushed to GitHub, email attempted."
