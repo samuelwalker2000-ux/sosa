@@ -88,9 +88,22 @@ Example: `/implement plans/2026-01-28-competitor-analysis-command.md`
 
 ### /market-report
 
-**Purpose:** Generate today's comprehensive daily market intelligence report (crypto, macro, AI).
+**Purpose:** Generate today's personalised daily brief covering markets, AI, Arsenal FC, fitness, and MEP engineering.
 
-Uses live web search to fetch all data points — no estimates or guesses. Produces a 12-section report covering macro indicators, BTC deep dive, top gainers/losers, setups, unlocks, trade ideas, and a 30-day events calendar. After generating:
+Uses live web search to fetch all data — no estimates or guesses. Target read time: 2 minutes. Produces an 11-section report covering:
+- Macro snapshot (BTC, S&P, NASDAQ, VIX, DXY, Oil, Yields)
+- My Take (opinionated positioning stance)
+- Crypto (BTC + alts — compact, one section)
+- Top movers (top 5 gainers/losers)
+- Setups to watch
+- Stocks & ETFs (SPY, QQQ, sector rotation, earnings)
+- AI news (top 2–3 items)
+- Arsenal FC (latest result, next fixture, headlines)
+- Fitness (one running or strength training insight)
+- MEP Engineering (one technical item — OBC, ASHRAE, NFPA, or HVAC)
+- Upcoming catalysts (14-day calendar)
+
+After generating:
 1. Saves report to `outputs/market-reports/YYYY-MM-DD-market-report.md`
 2. Uploads to Google Drive (folder: "Market Reports")
 3. Emails report to samuelwalker2000@gmail.com via `scripts/send_market_report.py`
@@ -105,7 +118,7 @@ Run manually any time, or triggered automatically each morning at 7:00 AM EST by
 
 ### scripts/send_market_report.py
 
-Reads the most recent file from `outputs/market-reports/` and sends it via SMTP email to samuelwalker2000@gmail.com.
+Reads the most recent file from `outputs/market-reports/`, converts the Markdown to styled HTML, and sends a formatted newsletter-style email to samuelwalker2000@gmail.com via SMTP. Sends as `multipart/alternative` (HTML + plain-text fallback). Requires `pip install python-dotenv markdown`.
 
 **Setup:** Copy `scripts/.env.example` to `scripts/.env` and fill in `SMTP_PASSWORD` with a Gmail App Password.
 
