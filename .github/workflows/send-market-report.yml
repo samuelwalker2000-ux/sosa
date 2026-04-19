@@ -1,0 +1,32 @@
+name: Send Market Report Email
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+    paths:
+      - 'outputs/market-reports/**.md'
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install python-dotenv markdown
+
+      - name: Send market report email
+        env:
+          EMAIL_FROM: samuelwalker2000@gmail.com
+          EMAIL_TO: samuelwalker2000@gmail.com
+          SMTP_HOST: smtp.gmail.com
+          SMTP_PORT: "587"
+          SMTP_USER: samuelwalker2000@gmail.com
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: python scripts/send_market_report.py
