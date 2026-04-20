@@ -5,7 +5,7 @@ on:
     branches:
       - 'claude/**'
     paths:
-      - 'outputs/market-reports/**.md'
+      - 'outputs/market-reports/*.md'
 
 jobs:
   send-email:
