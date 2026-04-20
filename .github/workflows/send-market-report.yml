@@ -3,6 +3,7 @@ name: Send Market Report Email
 on:
   push:
     branches:
+      - 'main'
       - 'claude/**'
     paths:
       - 'outputs/market-reports/*.md'
