@@ -1,49 +1,51 @@
 DAILY BRIEF — April 20, 2026
 
-**BTC: $76,000** | **S&P 500: 7,126 (+1.20%)** | **Fear & Greed: 27 (Fear)** | **BTC Dom: 57.0%**
+**BTC: $74,573** | **S&P 500: 7,126 (+1.20% Fri close)** | **Fear & Greed: 29 (Fear)** | **BTC Dom: 57%**
 
 ---
 
 ### 1. MACRO SNAPSHOT
 
+*US equity markets closed Sunday April 20. All figures are Friday April 17 close unless noted.*
+
 | Indicator | Value | 24h Change |
 |---|---|---|
-| BTC | $76,000 | -2.68% |
-| S&P 500 | 7,126 | +1.20% |
-| NASDAQ 100 | ~19,800 | +1.50% |
-| Fear & Greed | 27 | Fear |
-| VIX | 17.48 | -2.56% |
-| DXY | 98.10 | -0.8% |
-| 10Y Yield | 4.32% | -4bps |
-| WTI Oil | $84.36 | -10%+ |
+| BTC | $74,573 | -1.29% |
+| S&P 500 | 7,126 | +1.20% (Fri) |
+| NASDAQ 100 | 24,468 | +1.52% (Fri) |
+| Fear & Greed | 29 | Fear |
+| VIX | 17.48 | -2.56% (Fri) |
+| DXY | 98.20 | Near 1-month low |
+| 10Y Yield | 4.24% | -7 bps (Fri) |
+| WTI Oil | $83.85 | -10%+ (Fri) |
 
 **What's driving markets today:**
-- Iran announced the Strait of Hormuz is fully open for commercial traffic, triggering a broad risk-on rally in equities and a collapse in oil prices.
-- Crypto decoupled from equities — BTC is down ~3% while the Nasdaq logged its 13th consecutive daily gain, its longest streak since 1992.
-- FOMC meeting (April 28–29) and big-tech earnings week ahead are the next major catalysts; the Fed is expected to hold rates steady.
+- Iran confirmed the Strait of Hormuz is "completely open" on Friday, removing the geopolitical risk premium that had kept oil elevated — WTI plunged more than 10% on the news.
+- Equities surged to fresh record highs Friday as falling oil and yields acted as a simultaneous macro tailwind; crypto is lagging, showing fear-driven decoupling from equity risk-on.
+- The FOMC meets April 28–29 with rate cuts fully off the table for now; all eyes are on Powell's guidance and whether the Fed flags any concern about inflation re-acceleration.
 
 ---
 
 ### 2. MY TAKE
 
-The equity rally is real but narrow in its catalyst: geopolitics, not fundamentals. Iran opening the Strait removes a tail risk that had been propping up oil and the dollar — both have now corrected hard. The Nasdaq's 13-day win streak is impressive, but it's been fuelled by relief, not growth upgrades. Big-tech earnings starting this week will be the first true stress test of whether $7,100 on the S&P is justified.
+The Strait of Hormuz reopening is the macro event of the week — oil down 10% in a session is a deflationary shock that gives the Fed cover to stay patient without tightening. Equities got the best of both worlds Friday: falling input costs and a VIX collapsing below 18. S&P at 7,126 and NASDAQ at fresh highs says the market is pricing in a soft landing with the geopolitical tail risk now largely priced out.
 
-Crypto's underperformance relative to equities is a yellow flag. When risk-on hits and BTC can't rally through $80K, it signals weak hands at current levels, not strength. The Fear & Greed at 27 tells you positioning is light — that's setup for a snap-back, but not yet. Patient stance: hold dry powder, watch the April 28 FOMC for rate-cut language, and don't chase either equities or BTC until post-earnings clarity.
+Crypto is a different story. BTC at $74,573 with Fear & Greed at 29 tells you the crowd is not participating in the equity euphoria — they're watching $75K as the battleground. With CME options expiry April 24 and the Bitcoin Conference April 27–29, the next 10 days are high-event density. **Stance: patient-offensive.** Equities — hold longs, let the earnings parade play out. BTC — wait for a confirmed reclaim of $76,500 before adding; the fear index says smart money is still accumulating quietly while retail sits out.
 
 ---
 
 ### 3. CRYPTO
 
 **BTC:**
-- Price: $76,000 | Weekly: ~-5% | Dom: 57.0%
-- ETF net flow (latest, week of Apr 13): IBIT +$871M | FBTC +$98M | ARKB (YTD outflows ~$1.1B)
-- Key support: $74,000–$75,000 | Key resistance: $84,000–$86,000
-- BTC is consolidating just above the $75K support zone tested April 19; no clean break higher until it reclaims $84K with volume.
+- Price: $74,573 | Weekly: approx. -2% | Dom: 57%
+- ETF net flow (latest week): ~$871M weekly inflows (week of Apr 13–17); April 17 single session: $663M — IBIT leading, FBTC contributing
+- Key support: $72,000 / $70,000 | Key resistance: $76,500 / $80,000
+- BTC is grinding below $75K resistance, unable to sustain a breakout; the Fear & Greed print of 29 (Fear) confirms low conviction — consolidation continues unless the Bitcoin Conference (Apr 27–29) triggers a catalyst.
 
 **Alts:**
-- ETH: $2,410 | ETH/BTC ratio compressing; ETH is lagging BTC on this bounce, exchange balances declining but no demand catalyst visible yet.
-- SOL: $87 | Holding mid-$80s with continued DePIN and stablecoin activity on-chain; sentiment weak but structural demand intact.
-- Alt environment: **Risk-off / Consolidation** — BTC dominance at 57% with fear reading of 27 keeps capital anchored in BTC; no alt season signal present.
+- ETH: $2,294 | Underperforming BTC on a relative basis (-3.29% vs -1.29%); ETF flows split, but Ethereum on-chain activity up 41% week-on-week is a structural positive.
+- SOL: $84.78 | Holding above $80 support but no decisive momentum; narrative quiet this week.
+- Alt environment: **Consolidation** — dominance data (BTC 57%, ETH 10.7%) shows no altseason rotation yet; stablecoins at 12.2% of total market cap signals sideline cash waiting.
 
 ---
 
@@ -55,90 +57,90 @@ Crypto's underperformance relative to equities is a yellow flag. When risk-on hi
 
 | Token | Symbol | Price | 24h % | Why |
 |---|---|---|---|---|
-| Axelar | AXL | ~$1.20 | +29% | Cross-chain interoperability narrative revival; renewed bridge volume |
-| XRP | XRP | $1.43 | +3.9% | XRP Ledger ecosystem strength; regulatory clarity tailwind |
-| BIO Protocol | BIO | ~$0.28 | +17.5% | DeSci momentum; new protocol partnership announced |
-| Jito | JTO | ~$2.80 | +18.6% | SOL staking demand; Jito MEV restaking narrative active |
-| Polkadot | DOT | ~$6.40 | +8.2% | Polkadot ecosystem inflows; parachain activity uptick |
+| Jito | JTO | ~$3.20 | +18.55% | Solana liquid staking narrative reigniting |
+| Hyperliquid | HYPE | $42.88 | +17% (week) | Decentralized perps leader; Bitwise/Grayscale spot ETF filings circulating |
+| DeXe | DEXE | $14.50 | +14.31% | DAO governance token re-rating; 363% YTD leader |
+| Bittensor | TAO | ~$420 | Est. +8% | AI x crypto narrative strong; April momentum |
+| Polkadot-eco tokens | DOT-related | Various | +6–8% | Polkadot ecosystem showing relative strength |
 
 **Top 5 Losers**
 
 | Token | Symbol | Price | 24h % | Why |
 |---|---|---|---|---|
-| Bitcoin | BTC | $76,000 | -2.68% | Broader crypto risk-off; equities outperforming on geopolitical relief |
-| Ethereum | ETH | $2,410 | -3.29% | ETH/BTC compression; weak relative demand vs BTC |
-| Solana | SOL | $87 | -1.8% | Consolidation after recent highs; no fresh catalyst |
-| Avalanche | AVAX | ~$19 | -4.1% | L1 rotation fatigue; capital moving to Polkadot ecosystem |
-| Chainlink | LINK | ~$11.50 | -3.5% | Oracle sector weak; no new partnership news |
+| Ethereum | ETH | $2,294 | -3.29% | Underperforming vs BTC; rotating into L1 alternatives |
+| Aptos | APT | $0.95 | Est. -4% | YTD -42.68%; weak L1 narrative, token supply pressure |
+| Sei | SEI | ~$0.28 | Est. -3% | YTD -48.96%; trading below 20-DMA with weak volume |
+| Worldcoin | WLD | $0.28 | Est. -3% | Ongoing regulatory scrutiny on biometric data collection |
+| Bitcoin | BTC | $74,573 | -1.29% | Consolidation below $75K; failed breakout attempt |
 
 ---
 
 ### 5. SETUPS TO WATCH
 
-**AXL (Axelar) +29%** — Cross-chain narrative exploding; if it holds $1.10 support on pullback, high-conviction continuation setup. Watch for volume confirmation.
+**HYPE (Hyperliquid) +17% wk** — Decentralized perps with spot ETF filing rumours from Bitwise/Grayscale; if confirmed, re-rating to $55+ possible. Watchlist: entry on any pullback to $38–40 zone.
 
-**XRP (XRP) +3.9%** — Regulatory clarity + institutional custody interest keeping this bid; watchlist for break above $1.55 resistance which would open a run toward $1.80.
+**JTO (Jito) +18.55%** — Solana LST narrative heating up; watch for continuation above $3.50 with stop below $2.80.
 
-**BTC (Bitcoin) -2.68%** — $74,000–$75,000 is the line in the sand. A close below $74K on daily = distribution signal. A reclaim of $80K = re-entry trigger.
+**BTC retest of $76,500** — If BTC reclaims $76,500 on a daily close ahead of the Bitcoin Conference (Apr 27–29), that's a high-probability long setup targeting $80K. Invalidated below $72K.
 
-**JTO (Jito) +18.6%** — Parabolic move; DO NOT chase here. Wait for a 30–40% retrace to $2.20–$2.40 range for a cleaner entry.
+**TAO (Bittensor)** — AI x crypto intersection play; accumulation zone $380–400, target $500 on AI news flow.
 
-**BIO Protocol (BIO) +17.5%** — Micro-cap volatility; interesting DeSci sector but extremely thin liquidity. Size position accordingly.
+**ETH/BTC ratio** — Watching for ETH to stop bleeding against BTC; a reversal here flags altseason rotation starting. Not a trade yet — watchlist only.
 
 **Avoid:**
-- **AVAX** — L1 rotation fatigue; no compelling near-term catalyst vs. competing ecosystems.
-- **LINK** — Underperforming in a risk-on environment; sector out of favour.
+- **APT** — YTD -42.68%, below all major MAs, no catalyst visible.
+- **WLD** — Regulatory overhang on biometric data; no structural bid.
 
 ---
 
 ### 6. STOCKS & ETFs
 
 **Indices & ETFs:**
-- SPY: $710.14 +1.21% | QQQ: ~$640 +1.5% | GLD: $447.34 | BND: $74.06
+- SPY: $710.14 (+1.21% Fri) | QQQ: $648.85 (+1.52% Fri) | GLD: $447.34 | BND: $74.08
 
 **Notable movers:**
-- **Goldman Sachs (GS) +3.13%**: Beat Q1 2026 estimates on strong investment banking fees and equities trading revenue.
-- **Netflix (NFLX) -9.3%**: Beat Q1 earnings but Q2 guidance missed consensus; Reed Hastings stepping down from board in June spooked sentiment.
-- **Apple (AAPL) +1.4%**: Reuters reported iPhone shipments in China jumped 20% in Q1, beating a -4% overall market decline.
-- **ExxonMobil / Chevron / BP — down 3–5%**: Iran confirmed Strait of Hormuz fully open; oil fell 10%+ in a single session, crushing energy sector.
+- **Goldman Sachs (GS)**: Fell on surprise drop in bond-trading revenue despite a record quarter from its equities desk — a split result market didn't love.
+- **Nike (NKE)**: HSBC downgraded to Hold from Buy; shares dropped on reduced growth outlook.
+- **Leggett & Platt (LEG)**: Surged after Somnigroup agreed to acquire in an all-stock deal valued at ~$2.5B.
+- **SanDisk (SNDK)**: Added to Nasdaq-100 prior to Monday April 20 open — index inclusion buying expected.
 
 **Sector rotation / broad theme:**
-- Energy is the clear loser of the week — geopolitical risk premium is unwinding fast. Capital is rotating into tech and consumer names as growth becomes the new narrative heading into earnings season.
+- Energy was the week's clear loser as oil's 10% plunge hit energy stocks; the proceeds appear to be rotating into tech and discretionary, with QQQ and SPY both at record highs heading into a packed earnings week.
 
 ---
 
 ### 7. AI & TECH
 
 **AI:**
-- **Claude Opus 4.7 launched (Apr 16)**: Anthropic released its new flagship model targeting complex reasoning and long-running agentic workflows, landing in the same historic week as GPT-6 and Meta's LlamaCon — the most competitive AI release period on record.
-- **GPT-6 / GPT-5.4-Cyber (OpenAI)**: OpenAI released GPT-5.4-Cyber, a derivative model for cyber defence with expanded Trusted Access for Cyber (TAC) identity-tier verification; GPT-6 also confirmed in the same release cycle.
-- **Anthropic withholds "Claude Mythos"**: Following the March 26 data leak, Anthropic confirmed its most powerful internal model will NOT be publicly released due to cybersecurity risks; only available to select partners under "Project Glasswing."
+- **Anthropic releases Claude Opus 4.7** (April 16) — Latest flagship model targeting complex reasoning and long-running agentic workflows; Anthropic also reportedly developing "Claude Mythos 5" at 10 trillion parameters, though unconfirmed timeline.
+- **OpenAI closes $122B funding round** at an $852B post-money valuation — the largest private tech raise in history, accelerating next-phase AGI infrastructure buildout.
+- **SpaceX acquires xAI for $250B** — Elon Musk consolidates his AI and space ambitions under one roof; the deal reshapes the competitive landscape for frontier AI as Q1 2026 AI startup funding hit $242B (81% of all global VC).
 
 ---
 
 ### 8. ARSENAL FC
 
 **Latest result:** Premier League — Manchester City 2–1 Arsenal — April 19, 2026
-- Scorers: Rayan Cherki (Man City), Kai Havertz 45' (Arsenal), Erling Haaland 65' (Man City)
-- Haaland's second-half winner at the Etihad dealt a significant blow to Arsenal's title hopes, swinging the race back toward Guardiola's side.
+- Scorers: Haaland (65' winner) for City; Arsenal goal scorer(s) TBC
+- Arsenal concede a gut-punch result at the Etihad; Man City close the gap at the top to just 3 points with a game in hand — the title race is very much alive heading into the final weeks.
 
-**Next fixture:** Saturday, April 25 vs Newcastle United — Premier League (home)
+**Next fixture:** April 25 vs Newcastle United — Premier League (Home, Emirates)
 
 **Headlines:**
-- **Injury crisis deepens**: Saka (Achilles), Odegaard, Timber (groin), Calafiori, and Merino (season over) all out — squad depth under extreme pressure heading into the CL semi-final.
-- **Champions League semi-final**: Arsenal host Newcastle on Apr 25, then travel to Atlético Madrid on April 29 for the first leg of the CL semi; progression secured after 1-0 win + 0-0 draw vs Sporting CP.
+- Arsenal in Champions League semi-finals vs Atlético Madrid (1st leg April 29 in Madrid, 2nd leg May 5 at Emirates) — first SF appearance in back-to-back seasons.
+- Transfer gossip: Alejandro Garnacho, Ibrahima Konaté, Anthony Gordon, and Julián Álvarez all linked; Bayern Munich also circling a key target rumoured at £80M+.
 
 ---
 
 ### 9. FITNESS
 
-**Today's insight:** A 2026 randomised controlled trial published in a peer-reviewed journal found that strength training significantly improves *running economy durability* — the ability to maintain efficient form and metabolic efficiency in the final stages of a race. The key mechanism: heavy compound lifts (squats, deadlifts, single-leg work) applied 2x/week reduced stride variability under fatigue by ~12%. For runners targeting sub-20 min 5K or half-marathon PRs, adding 2 sessions of loaded lower-body strength work is now supported as a meaningful performance enhancer, not just injury prevention.
+**Today's insight:** A 2026 randomised controlled trial published in a peer-reviewed journal found that strength training (2x/week, heavy compound lifts) significantly improves *running economy durability* — meaning trained runners maintain efficient form and oxygen cost deeper into long efforts compared to endurance-only controls. The practical takeaway: if you're marathon training, adding heavy squats and deadlifts even once a week isn't just injury prevention — it's free pace at mile 20. Keep the weights challenging but not so heavy that they compromise the next day's run.
 
 ---
 
 ### 10. MEP ENGINEERING
 
-**Today's technical item:** ASHRAE's 2026 Annual Conference (June 27–July 1, Austin TX) has published its technical program under the theme "Changing the Game: Retrofitting for Resilience." Over 80 sessions cover ground-source heat pumps, low-GWP refrigerant transitions, decarbonisation strategies, and AI-driven building management systems. Of particular note: ASHRAE is positioning ground-source heat pumps as the primary decarbonisation pathway for commercial building HVAC — relevant for any project targeting LEED v5 or net-zero targets, where Mechanical designers will need to justify refrigerant selection and lifecycle carbon under tightening OBC and ASHRAE 90.1 requirements. Early-bird registration closes April 27.
+**Today's technical item:** ASHRAE's 2026 Annual Conference (June 27–July 1, Austin) is centering its technical program on **ground source heat pumps (GSHPs) as the primary commercial building decarbonization pathway**, with over 80 sessions spanning GSHP design, high-temperature heat pump retrofits, and AI in building management systems. The incoming ASHRAE President's theme — "Changing the Game: Retrofitting for Resilience" — signals the professional consensus is shifting: new construction alone won't hit net-zero targets, and the focus is moving to the existing building stock. For MEP practitioners, the practical implication is that GSHP and high-temp heat pump competence is rapidly becoming a core billable skill — particularly for commercial retrofit projects now being pushed by updated ASHRAE 90.1 and local energy codes.
 
 ---
 
@@ -146,35 +148,41 @@ Crypto's underperformance relative to equities is a yellow flag. When risk-on hi
 
 | Date | Event | Expected Impact |
 |---|---|---|
-| Apr 21 | Q1 Earnings begin in earnest (banks & industrials) | High — sets earnings season tone |
-| Apr 23 | Intel (INTC) Q1 earnings | Medium — semiconductor demand signal |
-| Apr 24 | Durable Goods Orders (advance) | Medium — manufacturing health check |
-| Apr 25 | Arsenal vs Newcastle (PL) | High (personal) |
-| Apr 28–29 | FOMC meeting — Fed rate decision | Very High — market hinging on rate-cut language |
-| Apr 29 | Arsenal vs Atlético Madrid (CL semi, 1st leg) | High (personal) |
-| Apr 30 | Q1 GDP Advance Estimate | Very High — first read on economic trajectory |
-| Apr 30 | PCE / Personal Income & Outlays | Very High — Fed's preferred inflation gauge |
-| Late Apr | Microsoft, Alphabet, Meta, Apple, Amazon earnings | Very High — tech earnings determine whether S&P 7,100 holds |
-| May 2 | US Jobs Report (NFP) | Very High — labour market health |
-| May 6 | Atlético Madrid vs Arsenal (CL semi, 2nd leg) | High (personal) |
+| Apr 21 | GE Aerospace, UnitedHealth, RTX, Danaher, UAL earnings | High — industrial & healthcare bellwethers |
+| Apr 22 | Tesla, Boeing, IBM, AT&T earnings; FOMC Day 1 | Very High — first Mag-7 report of Q1 season |
+| Apr 24 | CME Bitcoin & Ether monthly options expiry | Medium — potential BTC price pin/flush into expiry |
+| Apr 25 | Arsenal vs Newcastle (Premier League, Home) | — |
+| Apr 27–29 | Bitcoin Conference Las Vegas | Medium-High — historically produces market-moving announcements |
+| Apr 28–29 | FOMC meeting — rate decision (hold expected) | High — Powell guidance on inflation path & Warsh transition |
+| Apr 29 | Arsenal vs Atlético Madrid (CL SF 1st Leg, Madrid) | — |
+| Apr 30 | Q1 2026 US GDP advance estimate | High — growth vs. recession narrative |
+| May 1 | PCE inflation data (March) | High — Fed's preferred inflation gauge |
+| May 2 | Non-Farm Payrolls (April) | High — labour market health |
+| May 5 | Arsenal vs Atlético Madrid (CL SF 2nd Leg, Emirates) | — |
+| May 15 | Kevin Warsh takes over as Fed Chair | Very High — new policy regime, market re-pricing risk |
 
 ---
 
 ### DATA SOURCES
 
-- CoinMarketCap — BTC price, market cap, dominance, ETH/SOL prices
-- CoinGecko — BTC/ETH/SOL prices, total market cap confirmation
-- Yahoo Finance — S&P 500, VIX, SPY, QQQ, GLD, BND closing prices; Treasury yields
-- Farside Investors / TheBlock — Bitcoin ETF net flows (IBIT, FBTC, ARKB)
-- Schwab Market Update — Iran/Strait of Hormuz market narrative
-- TheStreet — Nasdaq 13-day winning streak context
-- FinanceCharts — SPY $710.14 closing price confirmation
-- BLS / Federal Reserve H.15 — 10Y Treasury yield 4.32%
-- Trading Economics — DXY 98.10, WTI oil $84.36
-- ESPN / Arsenal.com — Man City 2-1 Arsenal result, scorers, injury news
-- Motley Fool / FactSet / IG Group — Q1 2026 earnings season preview
-- Federal Reserve FOMC Calendar — April 28-29 meeting date
-- BEA / FRED — GDP advance estimate April 30
-- ASHRAE.org / ACHR News — 2026 Annual Conference technical program
-- ScienceDaily / ResearchGate — Strength training running economy research
-- LLM-Stats / Renovate QR / Anthropic — Claude Opus 4.7, GPT-6, Project Glasswing
+- Fortune / CoinDesk: BTC price April 20, 2026 — $74,572.68, -1.29%
+- feargreedmeter.com / Motley Fool: Crypto Fear & Greed Index — 29 (Fear)
+- TradingView Hub / Spoted Crypto: BTC Dominance 57%, ETH Dominance 10.7%
+- CoinMarketCap / Spoted Crypto: Total crypto market cap ~$2.50T
+- CoinDesk: ETH $2,294, SOL $84.78 (April 20)
+- The Block / openpr.com: BTC ETF weekly inflows ~$871M (week Apr 13–17), April 17 session $663M
+- BlockchainMagazine / TheCurrencyAnalytics: Crypto movers — Jito +18.55%, DeXe +14.31%, HYPE performance
+- Charles Schwab / CNBC: S&P 500 7,126 (+1.20%), NASDAQ 24,468 (+1.52%), Strait of Hormuz story
+- Saxo/Options Brief: S&P 500 clears 7,000 (Apr 16)
+- CNBC / FX Daily Report: WTI oil ~$83.85, -10%+ on Hormuz reopening
+- CNBC / Techi: DXY ~98.20, 10Y yield 4.24%
+- StockAnalysis / Yahoo Finance: SPY $710.14, QQQ $648.85, GLD $447.34, BND $74.08
+- FX Leaders / Kiplinger: Earnings calendar week of April 20–24
+- Phemex / KuCoin: FOMC April 28–29, CME options expiry April 24, Bitcoin Conference Apr 27–29
+- LLM-stats / Crescendo AI / CNBC: AI news — Claude Opus 4.7, OpenAI $122B raise, SpaceX/xAI $250B deal
+- ESPN / Arsenal.com: Man City 2–1 Arsenal (Apr 19); CL SF vs Atlético Madrid dates
+- Al Jazeera: Title race context, Premier League standings
+- ScienceDaily / PMC: Strength training improves running economy durability RCT (2026)
+- ACHR News / ASPE Pipeline: ASHRAE 2026 Annual Conference, GSHP decarbonization focus
+
+---
