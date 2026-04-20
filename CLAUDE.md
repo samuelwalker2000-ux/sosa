@@ -40,13 +40,16 @@ Claude should always orient itself through `/prime` at session start, then act w
 ├── outputs/
 │   └── market-reports/    # Daily market report archive (YYYY-MM-DD-market-report.md)
 ├── reference/             # Templates, examples, reusable patterns
-└── scripts/               # Automation scripts
-    ├── send_market_report.py  # Emails latest report via SMTP
-    ├── run_market_report.bat  # Runs Claude locally to generate + email report (used by Task Scheduler)
-    ├── send_log.txt           # Log output from automated runs (gitignored)
-    ├── .env                   # Gmail credentials (gitignored)
-    ├── .env.example           # Credential template (copy to .env, never commit)
-    └── README.md              # Setup instructions for email delivery
+├── scripts/               # Automation scripts
+│   ├── send_market_report.py  # Emails latest report via SMTP
+│   ├── run_market_report.bat  # Legacy local automation (superseded by Claude Routines)
+│   ├── send_log.txt           # Log output from local runs (gitignored)
+│   ├── .env                   # Gmail credentials for local use (gitignored)
+│   ├── .env.example           # Credential template (copy to .env, never commit)
+│   └── README.md              # Setup instructions for email delivery
+└── .github/
+    └── workflows/
+        └── send-market-report.yml  # GitHub Action — emails report on push to main/claude/*
 ```
 
 **Key directories:**
@@ -108,41 +111,55 @@ Uses live web search to fetch all data — no estimates or guesses. Target read 
 
 After generating:
 1. Saves report to `outputs/market-reports/YYYY-MM-DD-market-report.md`
-2. Emails report to samuelwalker2000@gmail.com via `scripts/send_market_report.py`
+2. Commits and pushes to GitHub
+3. GitHub Action (`.github/workflows/send-market-report.yml`) automatically emails the report to samuelwalker2000@gmail.com
 
-Run manually any time, or triggered automatically each morning at **7:00 AM EST** by Windows Task Scheduler (task name: `DailyMarketReport`), which runs `scripts/run_market_report.bat`.
+Run manually any time, or triggered automatically each morning at **7:00 AM EDT** by a **Claude Routine** (cloud-hosted, runs whether or not the local machine is on).
 
-**Prerequisite:** `scripts/.env` must be configured with Gmail App Password credentials. See `scripts/README.md`.
+**Automation stack:**
+- Claude Routine ID: `trig_01FuueawPjM4sPwz9PgfVjKZ` — manage at [claude.ai/code/routines](https://claude.ai/code/routines)
+- GitHub Action: triggered on push to `main` or `claude/**` when a file in `outputs/market-reports/` changes
+- Gmail credential: stored as GitHub Secret `SMTP_PASSWORD` on the `sosa` repo — no local `.env` required
 
 ---
 
 ## Scripts
 
-### scripts/run_market_report.bat
-
-The main automation script. Runs Claude Code locally (non-interactive) to generate today's market report and email it. Executed by Windows Task Scheduler at 7:00 AM daily. Logs output to `scripts/send_log.txt`.
-
-**Run manually:**
-```bash
-scripts/run_market_report.bat
-```
-
 ### scripts/send_market_report.py
 
 Reads the most recent file from `outputs/market-reports/`, converts the Markdown to styled HTML, and sends a formatted newsletter-style email to samuelwalker2000@gmail.com via SMTP. Sends as `multipart/alternative` (HTML + plain-text fallback). Requires `pip install python-dotenv markdown`.
 
-**Setup:** Copy `scripts/.env.example` to `scripts/.env` and fill in `SMTP_PASSWORD` with a Gmail App Password.
+Reads credentials from environment variables (or `scripts/.env` as fallback for local use).
 
 **Run manually:**
 ```bash
+EMAIL_FROM=samuelwalker2000@gmail.com \
+EMAIL_TO=samuelwalker2000@gmail.com \
+SMTP_HOST=smtp.gmail.com SMTP_PORT=587 \
+SMTP_USER=samuelwalker2000@gmail.com \
+SMTP_PASSWORD=<app-password> \
 python scripts/send_market_report.py
 ```
 
-See `scripts/README.md` for full setup instructions.
+### .github/workflows/send-market-report.yml
 
-### Automation: Windows Task Scheduler
+GitHub Action that fires whenever a `.md` file is pushed to `outputs/market-reports/` on `main` or any `claude/**` branch. Installs dependencies and runs `send_market_report.py` using the `SMTP_PASSWORD` GitHub Secret.
 
-The `DailyMarketReport` task runs `scripts/run_market_report.bat` at 7:00 AM daily. Computer must be on and logged in — VS Code does not need to be open. To manage: open Task Scheduler and find `DailyMarketReport`.
+**Credential:** stored as repository secret `SMTP_PASSWORD` at `github.com/samuelwalker2000-ux/sosa/settings/secrets/actions`.
+
+### Automation: Claude Routines (cloud)
+
+The daily report runs entirely in Anthropic's cloud — no local machine required.
+
+| Component | Details |
+|---|---|
+| Routine | `trig_01FuueawPjM4sPwz9PgfVjKZ` at [claude.ai/code/routines](https://claude.ai/code/routines) |
+| Schedule | 7:00 AM EDT daily (`0 11 * * *` UTC) |
+| Repo | `github.com/samuelwalker2000-ux/sosa` |
+| What it does | Generates report, commits and pushes to GitHub |
+| Email trigger | GitHub Action fires on push, sends styled HTML email |
+
+**Legacy:** `scripts/run_market_report.bat` and Windows Task Scheduler (`DailyMarketReport`) are superseded and can be disabled.
 
 ---
 
